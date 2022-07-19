@@ -12,15 +12,16 @@ export default [
 		website: "https://hellodevs.netlify.app/",
 		html: true,
 	},
-	// {
-	//        id: 2,
-	//        title: "NFT Landing Page",
-	//        img: nft,
-	//        description: "An NFT landing page built with HTML and CSS and Tailwind CSS. It was translated to code frorm a design in the Figma community",
-	//        direction: true,
-	//        github: 'https://github.com/Yagazie-davidson/NFT-Landing-page',
-	//        website: 'https://nftlp.netlify.app/'
-	//    },
+	{
+		id: 2,
+		title: "NFT Landing Page",
+		img: nft,
+		description:
+			"An NFT landing page built with HTML and CSS and Tailwind CSS. It was translated to code frorm a design in the Figma community",
+		direction: true,
+		github: "https://github.com/Yagazie-davidson/NFT-Landing-page",
+		website: "https://nftlp.netlify.app/",
+	},
 	// {
 	//     id: 2,
 	//     title: "Clean touch",
