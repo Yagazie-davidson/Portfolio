@@ -100,14 +100,14 @@ function AboutSection(props) {
 			<SectionF>
 				{/* <H1>Hi, I am Letam Davidson</H1> */}
 				<h4 style={h4} id={props.id}>
-					Frontend Developer based in Nigeria
+					Software Engineer based in Nigeria
 				</h4>
 				<p style={styleBody}>
-					I became a web developer because I'm drawn to a dynamic career that
+					I became an Engineer because I'm drawn to a dynamic career that
 					combines my spark for learning and helping others. <br /> <br />
-					I specialize in creating beautiful websites that are responsive across
-					all devices. I am consistently learning new ways to increase my
-					skillset to meet my client's needs.
+					I specialize in Frontend Development, creating beautiful websites that
+					are responsive across all devices. I am consistently learning new ways
+					to increase my skillset to meet my client's needs.
 					<br /> <br />
 					I constantly strive to be the best version of myself and to uplift
 					everyone around me. I'm a fast learner and I love taking on challenges
