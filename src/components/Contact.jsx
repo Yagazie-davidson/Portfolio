@@ -1,8 +1,8 @@
 import React from "react";
 // import Footer from "../components/Footer"
 import styled from "styled-components";
-import ContactLinks from "../components/ContactLinks";
-import Form from "../components/Form";
+import ContactLinks from "./ContactLinks";
+import Form from "./Form";
 
 function Contact() {
 	const Container = styled.section`
@@ -11,7 +11,7 @@ function Contact() {
 		justify-content: center;
 		margin-left: 10rem;
 		@media screen and (max-width: 414px) {
-			margin-left: 0rem;
+			margin-left: 2rem;
 		}
 	`;
 	const Header = styled.h1`

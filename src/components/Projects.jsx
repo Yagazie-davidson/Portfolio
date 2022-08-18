@@ -12,7 +12,7 @@ function Projects() {
 		@media screen and (max-width: 414px) {
 			display: flex;
 			flex-direction: column;
-			height: 300vh;
+			height: 150vh;
 			justify-content: center;
 			margin-top: 0rem;
 		}

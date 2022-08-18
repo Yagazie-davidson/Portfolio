@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Projects from "../components/Projects";
+import Projects from "./Projects";
 
 function Work() {
 	const Work = styled.section`
@@ -15,10 +15,11 @@ function Work() {
 		}
 	`;
 	const Header = styled.h1`
-		font-size: 60px;
+		font-size: 40px;
 		color: #000;
 		margin-top: 3rem;
 		margin-left: 2rem;
+		text-align: center;
 		@media screen and (max-width: 838px) {
 			text-align: center;
 			margin-left: 0rem;
@@ -27,11 +28,8 @@ function Work() {
 
 	return (
 		<div>
-			<Work>
-				<Header>
-					Take a look at what I've <br />
-					been working on!
-				</Header>
+			<Work id="work">
+				<Header>Recent Works</Header>
 				<Projects />
 			</Work>
 		</div>

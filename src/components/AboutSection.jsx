@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
+import { Link } from "react-scroll";
 import styled from "styled-components";
 import imgLetam from "../assets/Boti.png";
 import { FaReact, FaHtml5, FaCss3 } from "react-icons/fa";
@@ -67,9 +66,9 @@ function AboutSection(props) {
 		color: #000;
 	`;
 	const Button = styled.button`
-		background-color: rgb(125, 30, 106);
-		border: none;
-		color: white;
+		background-color: white;
+		border: 1px solid rgb(125, 30, 106);
+		color: rgb(125, 30, 106);
 		font-size: 18px;
 		padding: 20px 60px;
 		margin-top: 30px;
@@ -86,7 +85,10 @@ function AboutSection(props) {
 		padding-top: 5rem;
 		max-width: 30rem;
 		@media screen and (max-width: 414px) {
-			// padding-left: 2rem
+			display: grid;
+			grid-template-rows: repeat(2, minmax(0, 1fr));
+			gap: 1rem;
+			grid-auto-flow: column;
 		}
 	`;
 	const space = {
@@ -116,11 +118,16 @@ function AboutSection(props) {
 					than <strong>Chineletam</strong>
 				</p>
 				<br />
-				<Button>
-					<Link to="/work" className="white">
-						View my projects
-					</Link>
-				</Button>
+				<Link
+					activeClass="active"
+					to="work"
+					spy={true}
+					smooth={true}
+					offset={-100}
+					duration={500}
+				>
+					<Button>View my projects</Button>
+				</Link>
 				<Container>
 					<div style={space}>
 						<FaHtml5 fill="grey" />
