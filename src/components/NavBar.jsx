@@ -18,21 +18,21 @@ export default function NavBar() {
 			align-self: center;
 		}
 	`;
-	const Button = styled.button`
-		background-color: rgb(125, 30, 106);
-		border: none;
-		color: white;
-		font-size: 18px;
-		padding: 20px 60px;
-		margin-top: 30px;
-		cursor: pointer;
-		text-decoration: none;
-		border-radius: 5px;
-		@media screen and (max-width: 414px) {
-			padding: 10px 30px;
-			font-size: 14px;
-		}
-	`;
+// 	const Button = styled.button`
+// 		background-color: rgb(125, 30, 106);
+// 		border: none;
+// 		color: white;
+// 		font-size: 18px;
+// 		padding: 20px 60px;
+// 		margin-top: 30px;
+// 		cursor: pointer;
+// 		text-decoration: none;
+// 		border-radius: 5px;
+// 		@media screen and (max-width: 414px) {
+// 			padding: 10px 30px;
+// 			font-size: 14px;
+// 		}
+// 	`;
 	const Logo = styled.h2`
 		color: #7d1e6a;
 		font-size: 24px;
@@ -53,14 +53,7 @@ export default function NavBar() {
 	return (
 		<Nav>
 			<Logo>Letam</Logo>
-			<NavLinks className="navBar">
-				<a
-					href="https://docs.google.com/document/d/1lellu5XyIZzZxVi-ML7nRTsbz4ui_44J4AFXHvOXBqk/edit?usp=sharing"
-					target="_blank"
-				>
-					<Button>My CV</Button>
-				</a>
-			</NavLinks>
+			
 		</Nav>
 	);
 }
