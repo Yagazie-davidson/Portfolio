@@ -54,12 +54,12 @@ export default function NavBar() {
 		<Nav>
 			<Logo>Letam</Logo>
 			<NavLinks className="navBar">
-// 				<a
-// 					href="https://docs.google.com/document/d/1lellu5XyIZzZxVi-ML7nRTsbz4ui_44J4AFXHvOXBqk/edit?usp=sharing"
-// 					target="_blank"
-// 				>
-// 					<Button>My CV</Button>
-// 				</a>
+				<a
+					href="https://docs.google.com/document/d/1lellu5XyIZzZxVi-ML7nRTsbz4ui_44J4AFXHvOXBqk/edit?usp=sharing"
+					target="_blank"
+				>
+					<Button>My CV</Button>
+				</a>
 			</NavLinks>
 		</Nav>
 	);
