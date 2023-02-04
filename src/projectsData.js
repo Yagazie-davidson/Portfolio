@@ -4,7 +4,7 @@ export default [
 	{
 		id: 1,
 		title: "HC - BARBERS",
-		img: helloDevs,
+		img: "https://i.ibb.co/wwH2fLK/HC.png",
 		description:
 			"A Barbing saloon website built with NEXT JS",
 		direction: true,
@@ -14,7 +14,7 @@ export default [
 	},
 	{
 		id: 2,
-		title: "Hello Devs",
+		title: "HELLO DEVS",
 		img: helloDevs,
 		description:
 			"This is a random tech quote generator. It was built using HTML, CSS and JavaScript. In this project I practiced the use of APIs. When the App first loads, it pulls data from an API then renders in on the UI.",
@@ -25,7 +25,7 @@ export default [
 	},
 	{
 		id: 3,
-		title: "NFT Landing Page",
+		title: "NFT LANDING PAGE",
 		img: nft,
 		description:
 			"An NFT landing page built with HTML and CSS and Tailwind CSS. It was translated to code frorm a design in the Figma community",
