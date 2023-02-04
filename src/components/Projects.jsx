@@ -7,12 +7,9 @@ import { FaHtml5, FaCss3 } from "react-icons/fa";
 function Projects() {
 	const Wrapper = styled.section`
 		display: flex;
-		height: 100vh;
+		flex-wrap: wrap;
 		justify-content: center;
 		@media screen and (max-width: 414px) {
-			display: flex;
-			flex-direction: column;
-			height: 150vh;
 			justify-content: center;
 			margin-top: 0rem;
 		}
