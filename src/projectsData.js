@@ -3,7 +3,18 @@ import nft from "./assets/nft1.png";
 export default [
 	{
 		id: 1,
-		title: "Hello Devs",
+		title: "HC - BARBERS",
+		img: "https://i.ibb.co/wwH2fLK/HC.png",
+		description:
+			"A Barbing saloon website built with NEXT JS",
+		direction: true,
+		github: "https://github.com/Yagazie-davidson/Hair_cut_barbers",
+		website: "https://hc-barbers.vercel.app/",
+		html: true,
+	},
+	{
+		id: 2,
+		title: "HELLO DEVS",
 		img: helloDevs,
 		description:
 			"This is a random tech quote generator. It was built using HTML, CSS and JavaScript. In this project I practiced the use of APIs. When the App first loads, it pulls data from an API then renders in on the UI.",
@@ -13,8 +24,8 @@ export default [
 		html: true,
 	},
 	{
-		id: 2,
-		title: "NFT Landing Page",
+		id: 3,
+		title: "NFT LANDING PAGE",
 		img: nft,
 		description:
 			"An NFT landing page built with HTML and CSS and Tailwind CSS. It was translated to code frorm a design in the Figma community",
