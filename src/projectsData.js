@@ -3,6 +3,17 @@ import nft from "./assets/nft1.png";
 export default [
 	{
 		id: 1,
+		title: "HC - BARBERS",
+		img: helloDevs,
+		description:
+			"A Barbing saloon website built with NEXT JS",
+		direction: true,
+		github: "https://github.com/Yagazie-davidson/Hair_cut_barbers",
+		website: "https://hc-barbers.vercel.app/",
+		html: true,
+	},
+	{
+		id: 2,
 		title: "Hello Devs",
 		img: helloDevs,
 		description:
@@ -13,7 +24,7 @@ export default [
 		html: true,
 	},
 	{
-		id: 2,
+		id: 3,
 		title: "NFT Landing Page",
 		img: nft,
 		description:
