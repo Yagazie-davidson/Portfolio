@@ -86,12 +86,12 @@ function AboutSection(props) {
 		padding-top: 5rem;
 		display: grid;
 			grid-template-rows: repeat(1, minmax(0, 1fr));
-			gap: 1rem;
+			gap: 5rem;
 			grid-auto-flow: column;
 		@media screen and (max-width: 414px) {
 			display: grid;
 			grid-template-rows: repeat(2, minmax(0, 1fr));
-			gap: 5rem;
+			gap: 1rem;
 			grid-auto-flow: column;
 		}
 	`;
