@@ -10,6 +10,7 @@ function Projects() {
 		flex-direction: column;
 		flex-wrap: wrap;
 		justify-content: center;
+		align-items: center;
 		@media screen and (max-width: 414px) {
 			justify-content: center;
 			margin-top: 0rem;
@@ -22,6 +23,7 @@ function Projects() {
 		border-radius: 30px;
 		// background-color: #F7F7F7;
 		padding: 30px;
+		height: 100%;
 		@media screen and (max-width: 414px) {
 			display: flex;
 			justify-content: center;
