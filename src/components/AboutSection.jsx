@@ -84,10 +84,10 @@ function AboutSection(props) {
 		justify-content: flex-start;
 		column-gap: 3rem;
 		padding-top: 5rem;
-		display: grid;
-			grid-template-rows: repeat(1, minmax(0, 1fr));
+		display: flex;
+			flex-wrap: wrap;
 			gap: 2rem;
-			grid-auto-flow: column;
+			
 			margin: 0px 100px 100px 100px;
 			font-size: 30px;
 		@media screen and (max-width: 414px) {
