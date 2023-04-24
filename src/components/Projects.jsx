@@ -18,8 +18,8 @@ function Projects() {
 	`;
 	const Card = styled.div`
 		display: flex;
-		justify-content: center;
-		flex-direction: column;
+		align-items: center;
+		flex-direction: row;
 		border-radius: 30px;
 		// background-color: #F7F7F7;
 		padding: 30px;
