@@ -131,7 +131,12 @@ function AboutSection(props) {
 				>
 					<Button>View my projects</Button>
 				</Link>
-				<Container>
+				
+			</SectionF>
+			<SectionS>
+				<Img src={imgLetam} alt="IMG" />
+			</SectionS>
+<Container>
 					<div style={space}>
 						<FaHtml5 fill="grey" />
 						<Label style={font}>HTML</Label>
@@ -170,10 +175,6 @@ function AboutSection(props) {
 						<Label style={font}>Mongo DB</Label>
 					</div>
 				</Container>
-			</SectionF>
-			<SectionS>
-				<Img src={imgLetam} alt="IMG" />
-			</SectionS>
 		</SectionR>
 	);
 }
