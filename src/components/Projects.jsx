@@ -21,6 +21,7 @@ function Projects() {
 		align-items: center;
 		flex-direction: row;
 		border-radius: 30px;
+		column-gap: 3rem
 		// background-color: #F7F7F7;
 		padding: 30px;
 		height: 100%;
@@ -66,6 +67,11 @@ function Projects() {
 	const font = {
 		fontFamily: "'Poppins', sans-serif",
 	};
+	const co = {
+		display: "flex",
+		flexDirection: "column",
+		justifyContent: "center"
+	};
 	const space = {
 		paddingLeft: "0rem 0rem 0rem 0rem",
 	};
@@ -104,12 +110,14 @@ function Projects() {
 						<ReadMore>{project.description}</ReadMore>
 					</Description>
 				</Text>
+<div style={co}>
 				<ProLinks style={font} href={project.github} target="-blannk">
 					GitHub
 				</ProLinks>
 				<ProLinks style={font} href={project.website} target="_blank">
 					Website
 				</ProLinks>
+</div>
 </div>
 			</Card>
 		);
