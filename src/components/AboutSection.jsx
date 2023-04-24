@@ -86,7 +86,7 @@ function AboutSection(props) {
 		padding-top: 5rem;
 		display: grid;
 			grid-template-rows: repeat(1, minmax(0, 1fr));
-			gap: 5rem;
+			gap: 2rem;
 			grid-auto-flow: column;
 		@media screen and (max-width: 414px) {
 			display: grid;
