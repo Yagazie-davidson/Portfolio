@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import styled from "styled-components";
 import imgLetam from "../assets/Boti.png";
 import { FaReact, FaHtml5, FaCss3 } from "react-icons/fa";
-import { SiRedux, SiTailwindcss, SiJavascript } from "react-icons/si";
+import { SiRedux, SiTailwindcss, SiJavascript, SiMongodb, SiNodedotjs, SiExpress } from "react-icons/si";
 
 function AboutSection(props) {
 	const SectionR = styled.section`
@@ -152,6 +152,19 @@ function AboutSection(props) {
 					<div style={space}>
 						<SiTailwindcss fill="grey" />
 						<Label style={font}>Tailwind CSS</Label>
+					</div>
+					<div style={space}>
+						<SiNodedotjs fill="grey" />
+						<Label style={font}>Node JS</Label>
+					</div>
+					<div style={space}>
+						<SiExpress fill="grey" />
+						<Label style={font}>Express JS</Label>
+					</div>
+
+					<div style={space}>
+						<SiMongodb fill="grey" />
+						<Label style={font}>Mongo DB</Label>
 					</div>
 				</Container>
 			</SectionF>
