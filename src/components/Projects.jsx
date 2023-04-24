@@ -20,8 +20,8 @@ function Projects() {
 		display: flex;
 		align-items: center;
 		flex-direction: row;
-		border-radius: 30px;
-		column-gap: 3rem
+		// border-radius: 30px;
+		column-gap: 3rem;
 		// background-color: #F7F7F7;
 		padding: 30px;
 		height: 100%;
