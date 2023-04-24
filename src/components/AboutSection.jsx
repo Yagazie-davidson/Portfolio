@@ -91,10 +91,10 @@ function AboutSection(props) {
 			margin: 0px 100px 100px 100px;
 			font-size: 30px;
 		@media screen and (max-width: 414px) {
-			display: grid;
-			grid-template-rows: repeat(2, minmax(0, 1fr));
-			gap: 1rem;
-			grid-auto-flow: column;
+// 			display: grid;
+// 			grid-template-rows: repeat(2, minmax(0, 1fr));
+// 			gap: 1rem;
+// 			grid-auto-flow: column;
 		}
 	`;
 	const space = {
