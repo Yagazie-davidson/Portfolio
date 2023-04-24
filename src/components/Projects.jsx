@@ -96,6 +96,7 @@ function Projects() {
 		return (
 			<Card key={project.id}>
 				<Img src={project.img} alt="" />
+		<div>
 				<h4 style={font}>{project.title}</h4>
 				<Text>
 					<p style={font}>Description:</p>
@@ -109,6 +110,7 @@ function Projects() {
 				<ProLinks style={font} href={project.website} target="_blank">
 					Website
 				</ProLinks>
+</div>
 			</Card>
 		);
 	});
