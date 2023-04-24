@@ -82,7 +82,7 @@ function AboutSection(props) {
 		display: flex;
 		align-items: center;
 		justify-content: flex-start;
-		column-gap: 1rem;
+		column-gap: 3rem;
 		padding-top: 5rem;
 		@media screen and (max-width: 414px) {
 			display: grid;
