@@ -88,6 +88,8 @@ function AboutSection(props) {
 			grid-template-rows: repeat(1, minmax(0, 1fr));
 			gap: 2rem;
 			grid-auto-flow: column;
+			margin: 0px 100px 100px 100px;
+			font-size: 30px;
 		@media screen and (max-width: 414px) {
 			display: grid;
 			grid-template-rows: repeat(2, minmax(0, 1fr));
