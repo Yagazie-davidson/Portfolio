@@ -1,6 +1,17 @@
 import helloDevs from "./assets/hello-devs.png";
 import nft from "./assets/nft1.png";
 export default [
+{
+		id: 4,
+		title: "SERVICE BUDS",
+		img: "https://i.ibb.co/gWBb0qH/Screenshot-147.png", 
+		description:
+			"A Full-Stack web application for University of Lagos student to post their services and for others students to get easy access to this information. This is really helpful to student, most espeicaily the ones new to a particular hostel. Services like Electrician, Carpenter, Barber and other essentials to every hostel will be posted. Students are able to filter the services to get services in a particular hostel. The closer the service provider, the better and faster the process will be. Service providers are required to post some certain informations that will be stored in a database",
+		direction: true,
+		github: "https://github.com/Yagazie-davidson/service-buds-client",
+		website: "https://servicebuds.vercel.app/",
+		html: true,
+	},
 	{
 		id: 1,
 		title: "HC - BARBERS",

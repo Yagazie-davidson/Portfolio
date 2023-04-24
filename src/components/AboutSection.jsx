@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import styled from "styled-components";
 import imgLetam from "../assets/Boti.png";
 import { FaReact, FaHtml5, FaCss3 } from "react-icons/fa";
-import { SiRedux, SiTailwindcss, SiJavascript } from "react-icons/si";
+import { SiRedux, SiTailwindcss, SiJavascript, SiMongodb, SiNodedotjs, SiExpress } from "react-icons/si";
 
 function AboutSection(props) {
 	const SectionR = styled.section`
@@ -81,12 +81,18 @@ function AboutSection(props) {
 	const Container = styled.section`
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: flex-start;
+		column-gap: 3rem;
 		padding-top: 5rem;
-		max-width: 30rem;
+		display: flex;
+			flex-wrap: wrap;
+			gap: 2rem;
+			
+			margin: 0px 100px 100px 100px;
+			font-size: 30px;
 		@media screen and (max-width: 414px) {
-			display: grid;
-			grid-template-rows: repeat(2, minmax(0, 1fr));
+ 			display: grid;
+ 			grid-template-rows: repeat(9, minmax(0, 1fr));
 			gap: 1rem;
 			grid-auto-flow: column;
 		}
@@ -95,9 +101,9 @@ function AboutSection(props) {
 		display: "flex",
 		flexDirection: "column",
 		justifyContent: "center",
-		alignItems: "center",
 	};
 	return (
+		<>
 		<SectionR id="about">
 			<SectionF>
 				{/* <H1>Hi, I am Letam Davidson</H1> */}
@@ -128,7 +134,14 @@ function AboutSection(props) {
 				>
 					<Button>View my projects</Button>
 				</Link>
-				<Container>
+				
+			</SectionF>
+			<SectionS>
+				<Img src={imgLetam} alt="IMG" />
+			</SectionS>
+
+		</SectionR>
+<Container>
 					<div style={space}>
 						<FaHtml5 fill="grey" />
 						<Label style={font}>HTML</Label>
@@ -153,12 +166,21 @@ function AboutSection(props) {
 						<SiTailwindcss fill="grey" />
 						<Label style={font}>Tailwind CSS</Label>
 					</div>
+					<div style={space}>
+						<SiNodedotjs fill="grey" />
+						<Label style={font}>Node JS</Label>
+					</div>
+					<div style={space}>
+						<SiExpress fill="grey" />
+						<Label style={font}>Express JS</Label>
+					</div>
+
+					<div style={space}>
+						<SiMongodb fill="grey" />
+						<Label style={font}>Mongo DB</Label>
+					</div>
 				</Container>
-			</SectionF>
-			<SectionS>
-				<Img src={imgLetam} alt="IMG" />
-			</SectionS>
-		</SectionR>
+</>
 	);
 }
 

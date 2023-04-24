@@ -7,8 +7,10 @@ import { FaHtml5, FaCss3 } from "react-icons/fa";
 function Projects() {
 	const Wrapper = styled.section`
 		display: flex;
+		flex-direction: column;
 		flex-wrap: wrap;
 		justify-content: center;
+		align-items: center;
 		@media screen and (max-width: 414px) {
 			justify-content: center;
 			margin-top: 0rem;
@@ -16,11 +18,13 @@ function Projects() {
 	`;
 	const Card = styled.div`
 		display: flex;
-		justify-content: center;
-		flex-direction: column;
-		border-radius: 30px;
+		align-items: center;
+		flex-direction: row;
+		// border-radius: 30px;
+		column-gap: 3rem;
 		// background-color: #F7F7F7;
 		padding: 30px;
+		height: 100%;
 		@media screen and (max-width: 414px) {
 			display: flex;
 			justify-content: center;
@@ -63,6 +67,11 @@ function Projects() {
 	const font = {
 		fontFamily: "'Poppins', sans-serif",
 	};
+	const co = {
+		display: "flex",
+		flexDirection: "column",
+		justifyContent: "center"
+	};
 	const space = {
 		paddingLeft: "0rem 0rem 0rem 0rem",
 	};
@@ -93,6 +102,7 @@ function Projects() {
 		return (
 			<Card key={project.id}>
 				<Img src={project.img} alt="" />
+		<div>
 				<h4 style={font}>{project.title}</h4>
 				<Text>
 					<p style={font}>Description:</p>
@@ -100,12 +110,15 @@ function Projects() {
 						<ReadMore>{project.description}</ReadMore>
 					</Description>
 				</Text>
+<div style={co}>
 				<ProLinks style={font} href={project.github} target="-blannk">
 					GitHub
 				</ProLinks>
 				<ProLinks style={font} href={project.website} target="_blank">
 					Website
 				</ProLinks>
+</div>
+</div>
 			</Card>
 		);
 	});
