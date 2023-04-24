@@ -81,9 +81,9 @@ function AboutSection(props) {
 	const Container = styled.section`
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: flex-start;
+		column-gap: 1rem;
 		padding-top: 5rem;
-		max-width: 30rem;
 		@media screen and (max-width: 414px) {
 			display: grid;
 			grid-template-rows: repeat(2, minmax(0, 1fr));
