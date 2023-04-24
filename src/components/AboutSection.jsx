@@ -83,7 +83,6 @@ function AboutSection(props) {
 		align-items: center;
 		justify-content: flex-start;
 		column-gap: 3rem;
-		width: 100vh;
 		padding-top: 5rem;
 		@media screen and (max-width: 414px) {
 			display: grid;
@@ -96,8 +95,6 @@ function AboutSection(props) {
 		display: "flex",
 		flexDirection: "column",
 		justifyContent: "center",
-		alignItems: "center",
-		width: "5rem",
 	};
 	return (
 		<SectionR id="about">
