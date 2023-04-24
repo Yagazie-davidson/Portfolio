@@ -101,6 +101,7 @@ function AboutSection(props) {
 		justifyContent: "center",
 	};
 	return (
+		<>
 		<SectionR id="about">
 			<SectionF>
 				{/* <H1>Hi, I am Letam Davidson</H1> */}
@@ -136,6 +137,8 @@ function AboutSection(props) {
 			<SectionS>
 				<Img src={imgLetam} alt="IMG" />
 			</SectionS>
+
+		</SectionR>
 <Container>
 					<div style={space}>
 						<FaHtml5 fill="grey" />
@@ -175,7 +178,7 @@ function AboutSection(props) {
 						<Label style={font}>Mongo DB</Label>
 					</div>
 				</Container>
-		</SectionR>
+</>
 	);
 }
 
