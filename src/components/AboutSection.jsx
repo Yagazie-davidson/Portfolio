@@ -97,7 +97,7 @@ function AboutSection(props) {
 		flexDirection: "column",
 		justifyContent: "center",
 		alignItems: "center",
-		width: "100%",
+		width: "5rem",
 	};
 	return (
 		<SectionR id="about">
