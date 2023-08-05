@@ -51,6 +51,8 @@ const darkfoot = {
 }
 
 function Footer(props) {
+  const currentDate = new Date();
+  const currentYear = currentDate.getFullYear();
   return (
     <div style={darkfoot}>
       <Mail href='mailto:davidsonletam@gmail.com'>hello@letamdev.com</Mail>
@@ -66,7 +68,7 @@ function Footer(props) {
           <FaGithub fill="#7D1E6A" />
         </IconA>
       </IconWrapper>
-      <Text>Created with 💜 by Letam © 2022</Text>
+      <Text>Created with 💜 by Letam © {currentYear}</Text>
     </FooterBottom>
     </div>
   );
