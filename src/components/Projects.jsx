@@ -7,7 +7,7 @@ import { FaHtml5, FaCss3 } from "react-icons/fa";
 function Projects() {
 	const Wrapper = styled.section`
 		display: flex;
-		flex-direction: column;
+		// flex-direction: column;
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
