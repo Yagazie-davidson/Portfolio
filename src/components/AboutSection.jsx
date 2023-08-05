@@ -84,18 +84,15 @@ function AboutSection(props) {
 		justify-content: flex-start;
 		column-gap: 3rem;
 		padding-top: 5rem;
-		display: flex;
-			flex-wrap: wrap;
-			gap: 2rem;
-			
-			margin: 0px 100px 100px 100px;
-			font-size: 30px;
-		@media screen and (max-width: 414px) {
- 			display: grid;
- 			grid-template-rows: repeat(9, minmax(0, 1fr));
-			gap: 1rem;
-			grid-auto-flow: column;
-		}
+		flex-wrap: wrap;
+		gap: 2rem;
+		margin: 0px 100px 100px 100px;
+		font-size: 30px;
+		// @media screen and (max-width: 414px) {
+ 	// 		display: flex;
+ 	// 		gap: 1rem;
+		// 	grid-auto-flow: row;
+		// }
 	`;
 	const space = {
 		display: "flex",
